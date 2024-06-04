@@ -1,11 +1,14 @@
 import {FunctionComponent} from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 
 const Home: FunctionComponent = () => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Home!</Text>
-    </View>
+    <ScrollView style={{flexGrow: 1, backgroundColor: '#EF7D00'}}>
+      <View style={{flexDirection: 'row'}}>
+        <Text>penny appeal</Text>
+        <Text>Salam, Ahmed</Text>
+      </View>
+    </ScrollView>
   );
 };
 

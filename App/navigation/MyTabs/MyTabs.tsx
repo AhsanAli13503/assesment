@@ -9,7 +9,7 @@ const MyTabs = ({initialRouteName = TABS_ROUTES.HOME}) => {
   return (
     <Tab.Navigator
       initialRouteName={initialRouteName}
-      screenOptions={() => ({})}>
+      screenOptions={{headerShown: false}}>
       {tabs.map((item: any) => {
         return (
           <Tab.Screen
