@@ -1,8 +1,8 @@
-const TABS = {
+const TABS_ROUTES = {
   HOME: 'home',
   ORANGE: 'orange',
   HISTORY: 'history',
   PROFILE: 'profile',
 };
 
-export {TABS};
+export default TABS_ROUTES;

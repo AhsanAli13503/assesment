@@ -1,21 +1,22 @@
-import {Home, Orange, History, Profile} from '../../screens/bottom_tabs';
-import {TABS} from '../routes';
+// import {Home, Orange, History, Profile} from '../../screens/bottom_tabs';
+import TABS_ROUTES from '../routes';
+import {Orange, History, Profile, Home} from '../../screens/bottom_tabs';
 
 export const tabs = [
   {
-    name: TABS.HOME,
-    componet: Home,
+    name: TABS_ROUTES.HOME,
+    component: Home,
   },
   {
-    name: TABS.ORANGE,
-    componet: Orange,
+    name: TABS_ROUTES.ORANGE,
+    component: Orange,
   },
   {
-    name: TABS.HISTORY,
-    componet: History,
+    name: TABS_ROUTES.HISTORY,
+    component: History,
   },
   {
-    name: TABS.PROFILE,
-    componet: Profile,
+    name: TABS_ROUTES.PROFILE,
+    component: Profile,
   },
 ];
